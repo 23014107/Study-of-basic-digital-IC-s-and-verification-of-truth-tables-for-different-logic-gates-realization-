@@ -71,7 +71,7 @@ Check all the gates following the same procedure.
                                xnor (y7,a,b);
                                endmodule
 
-#RTL REALIZATION:
+# RTL REALIZATION:
 ![285830260-f7726398-f2fd-47c7-9791-e79e0afa82f6](https://github.com/23014107/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/151625620/ec8bb577-8ac0-4629-ae4d-89197e78be73)
 
 # TRUTH TABLE:
