@@ -1,5 +1,5 @@
-# NAME:RAMYA.P
-# REFERANCE NUMBER:212223240137
+# NAME: RAMYA.P
+# REFERANCE NUMBER: 212223240137
 # EXPERIMENT 1: Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
  AIM:
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
@@ -59,17 +59,17 @@ Press the switches for inputs “A” and “B”. The switch is ON state when 1
 If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
 # Program:
-module logicgates(a,b,y1,y2,y3,y4,y5,y6,y7);
-input a,b;
-output y1,y2,y3,y4,y5,y6,y7;
-and (y1,a,b);
-or (y2,a,b);
-not (y3,a);
-xor (y4,a,b);
-nand (y5,a,b);
-nor(y6,a,b);
-xnor (y7,a,b);
-endmodule
+                               module logicgates(a,b,y1,y2,y3,y4,y5,y6,y7);
+                               input a,b;
+                               output y1,y2,y3,y4,y5,y6,y7;
+                               and (y1,a,b);
+                               or (y2,a,b);
+                               not (y3,a);
+                               xor (y4,a,b);
+                               nand (y5,a,b);
+                               nor(y6,a,b);
+                               xnor (y7,a,b);
+                               endmodule
 
 #RTL REALIZATION:
 ![285830260-f7726398-f2fd-47c7-9791-e79e0afa82f6](https://github.com/23014107/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/151625620/ec8bb577-8ac0-4629-ae4d-89197e78be73)
@@ -77,7 +77,7 @@ endmodule
 # TRUTH TABLE:
 
 
-*/![285830630-96f13d5f-ec9c-48d5-ba7a-f5da41cbf160](https://github.com/23014107/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/151625620/013269e0-8db4-44b1-8366-6b710efd5a8a)
+![285830630-96f13d5f-ec9c-48d5-ba7a-f5da41cbf160](https://github.com/23014107/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/151625620/013269e0-8db4-44b1-8366-6b710efd5a8a)
 
 
 # TIMING DIAGRAM:
